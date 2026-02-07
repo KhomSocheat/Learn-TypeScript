@@ -1,0 +1,50 @@
+# Node modules
+/node_modules
+/npm-debug.log*
+/yarn-error.log*
+
+# Laravel vendor
+/vendor
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Application cache
+/bootstrap/cache/*
+!bootstrap/cache/.gitignore
+
+# Storage
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+
+# Compiled assets
+/public/hot
+/public/storage
+
+# IDE / Editor files
+/.idea
+/.vscode
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PHPUnit
+.phpunit.result.cache
+
+# Laravel Mix
+/mix-manifest.json
+
+# Debug
+*.log
+
+# Docker
+/docker-compose.override.yml
