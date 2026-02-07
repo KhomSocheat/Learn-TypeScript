@@ -18,4 +18,8 @@ function multiply4(...nums:number[]) : number{
     })
 }
 
+let x = (str : string) =>{
+    return "hello" + str;
+}
+
 console.log(multiply(10,20));
