@@ -12,5 +12,10 @@ function multiply2(a:number, b?:number):number{
 function multiply3(a: number,b:number = 2) : number{
     return a * b;
 }
+function multiply4(...nums:number[]) : number{
+    return nums.reduce((a,b) =>{
+        return a*b
+    })
+}
 
 console.log(multiply(10,20));
