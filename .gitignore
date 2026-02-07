@@ -48,3 +48,9 @@ Thumbs.db
 
 # Docker
 /docker-compose.override.yml
+
+# Ignore all files in dist
+/dist/*
+
+# But keep .js files
+!/dist/*.js
